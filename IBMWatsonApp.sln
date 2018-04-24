@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IBMWatsonApp", "IBMWatsonApp\IBMWatsonApp.csproj", "{C8EB3B07-C3C6-4FE2-BCB5-76EE72199E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatsonServices", "WatsonServices\WatsonServices.csproj", "{99EB2613-DE29-46A8-85BA-EE66776BE789}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8EB3B07-C3C6-4FE2-BCB5-76EE72199E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8EB3B07-C3C6-4FE2-BCB5-76EE72199E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8EB3B07-C3C6-4FE2-BCB5-76EE72199E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8EB3B07-C3C6-4FE2-BCB5-76EE72199E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99EB2613-DE29-46A8-85BA-EE66776BE789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EB2613-DE29-46A8-85BA-EE66776BE789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EB2613-DE29-46A8-85BA-EE66776BE789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EB2613-DE29-46A8-85BA-EE66776BE789}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5D3A161-A0C8-4566-B144-869FF2F52B38}
+	EndGlobalSection
+EndGlobal

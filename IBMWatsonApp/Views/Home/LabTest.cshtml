@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Lab test";
+}
+<div class="row">
+    <div class="col-md-8">
+        <h1>Watson App</h1>
+        <ul>
+            <li>User wants to book a lab test. </li>
+            <li>Provide test details including procedure, cost.</li>
+            <li>Book appointment for lab test with Date and Time</li>
+            <li>Send confirmation email.</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <div class="chatbot">
+            <div class="anaBanner">Questions? Try asking Ana.</div>
+            <div id="chatBox" class="dialogcontainer"></div>
+            <input type=text id="chatMessage" class="dialoginput" placeholder="Type your message here " onkeypress="return newEvent(event);" value="@ViewData["Message"]" />
+        </div>
+    </div>
+</div>
+

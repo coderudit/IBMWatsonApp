@@ -1,0 +1,728 @@
+﻿{
+  "name": "LabTestBooking",
+  "created": "2017-12-28T15:57:21.010Z",
+  "intents": [
+    {
+      "intent": "get_info",
+      "created": "2018-01-01T06:00:29.685Z",
+      "updated": "2018-01-01T07:20:53.571Z",
+      "examples": [
+        {
+          "text": "I need info",
+          "created": "2018-01-01T06:05:33.853Z",
+          "updated": "2018-01-01T06:05:33.853Z"
+        },
+        {
+          "text": "I need more information",
+          "created": "2018-01-01T06:05:45.677Z",
+          "updated": "2018-01-01T06:05:45.677Z"
+        },
+        {
+          "text": "I need some information",
+          "created": "2018-01-01T06:05:58.656Z",
+          "updated": "2018-01-01T06:05:58.656Z"
+        },
+        {
+          "text": "I want to know more",
+          "created": "2018-01-01T06:06:07.436Z",
+          "updated": "2018-01-01T06:06:07.436Z"
+        },
+        {
+          "text": "Information",
+          "created": "2018-01-01T06:06:15.672Z",
+          "updated": "2018-01-01T06:06:15.672Z"
+        },
+        {
+          "text": "Mental",
+          "created": "2018-01-01T07:20:53.571Z",
+          "updated": "2018-01-01T07:20:53.571Z"
+        }
+      ],
+      "description": "This intent is used to fulfill the requirements of suggested info by the user."
+    },
+    {
+      "intent": "BookLabTest",
+      "created": "2018-01-01T04:10:17.494Z",
+      "updated": "2018-01-01T04:10:17.494Z",
+      "examples": [
+        {
+          "text": "Lab test",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        },
+        {
+          "text": "Lab",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        },
+        {
+          "text": "I need to book test",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        },
+        {
+          "text": "I need to book a lab test",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        },
+        {
+          "text": "Booking",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        },
+        {
+          "text": "Booking test",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        },
+        {
+          "text": "Booking a test",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        },
+        {
+          "text": "Booking a lab test",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        },
+        {
+          "text": "Lab test booking",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        },
+        {
+          "text": "Lab test book",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        },
+        {
+          "text": "Book a lab test",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        },
+        {
+          "text": "Book a test",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        },
+        {
+          "text": "Book test",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        },
+        {
+          "text": "Book",
+          "created": "2018-01-01T04:10:17.494Z",
+          "updated": "2018-01-01T04:10:17.494Z"
+        }
+      ],
+      "description": "This shows the intent of the user to book a lab test"
+    },
+    {
+      "intent": "test_procedure",
+      "created": "2018-01-01T05:45:47.957Z",
+      "updated": "2018-01-01T07:41:07.604Z",
+      "examples": [
+        {
+          "text": "Procedure for @types",
+          "created": "2018-01-01T07:41:07.604Z",
+          "updated": "2018-01-01T07:41:07.604Z"
+        },
+        {
+          "text": "Procedure and cost for @types",
+          "created": "2018-01-01T07:41:07.604Z",
+          "updated": "2018-01-01T07:41:07.604Z"
+        },
+        {
+          "text": "I want some details on @types",
+          "created": "2018-01-01T07:41:07.604Z",
+          "updated": "2018-01-01T07:41:07.604Z"
+        },
+        {
+          "text": "I need information about @types",
+          "created": "2018-01-01T07:41:07.604Z",
+          "updated": "2018-01-01T07:41:07.604Z"
+        },
+        {
+          "text": "I need details about @types",
+          "created": "2018-01-01T07:41:07.604Z",
+          "updated": "2018-01-01T07:41:07.604Z"
+        },
+        {
+          "text": "Cost for @types",
+          "created": "2018-01-01T07:41:07.604Z",
+          "updated": "2018-01-01T07:41:07.604Z"
+        }
+      ],
+      "description": "This intent is used to get the user request for a test procedure."
+    }
+  ],
+  "updated": "2018-01-01T16:13:22.471Z",
+  "entities": [
+    {
+      "entity": "sys-time",
+      "values": [],
+      "created": "2018-01-01T06:11:20.288Z",
+      "updated": "2018-01-01T06:11:20.288Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "sys-location",
+      "values": [],
+      "created": "2018-01-01T06:11:20.288Z",
+      "updated": "2018-01-01T06:11:20.288Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "created": "2018-01-01T06:11:20.288Z",
+      "updated": "2018-01-01T06:11:20.288Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "procedures",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "chiropractor",
+          "created": "2018-01-01T06:11:38.993Z",
+          "updated": "2018-01-01T06:11:38.993Z",
+          "metadata": null,
+          "synonyms": [ "adjustment", "back", "back adjusted", "back doctor", "back pain", "chiropractic", "massage", "spine" ]
+        },
+        {
+          "type": "synonyms",
+          "value": "eye exam",
+          "created": "2018-01-01T06:11:38.993Z",
+          "updated": "2018-01-01T06:11:38.993Z",
+          "metadata": null,
+          "synonyms": [ "annual exam", "check vision", "eye exams" ]
+        },
+        {
+          "type": "synonyms",
+          "value": "eye wear",
+          "created": "2018-01-01T06:11:38.993Z",
+          "updated": "2018-01-01T06:11:38.993Z",
+          "metadata": null,
+          "synonyms": [ "bifocals", "contacts", "correction", "glasses", "laser", "laser treatment", "lasik", "lenses", "specks", "vision correction" ]
+        },
+        {
+          "type": "synonyms",
+          "value": "orthodontics",
+          "created": "2018-01-01T06:11:38.993Z",
+          "updated": "2018-01-01T06:11:38.993Z",
+          "metadata": null,
+          "synonyms": [ "braces", "smile correction", "straighten" ]
+        },
+        {
+          "type": "synonyms",
+          "value": "physiotherapy",
+          "created": "2018-01-01T06:11:38.993Z",
+          "updated": "2018-01-01T06:11:38.993Z",
+          "metadata": null,
+          "synonyms": [ "massage", "muscle pain", "muscle therapy", "myofascial", "physical therapist", "physical therapy", "rehabilitation", "stretching", "therapy exercises" ]
+        },
+        {
+          "type": "synonyms",
+          "value": "psychologist",
+          "created": "2018-01-01T06:11:38.993Z",
+          "updated": "2018-01-01T06:11:38.993Z",
+          "metadata": null,
+          "synonyms": [ "addiction", "counseling", "couples counseling", "depression", "family counseling", "head doctor", "ptsd", "shrink", "therapist", "therapy" ]
+        },
+        {
+          "type": "synonyms",
+          "value": "teeth cleaning",
+          "created": "2018-01-01T06:11:38.993Z",
+          "updated": "2018-01-01T06:11:38.993Z",
+          "metadata": null,
+          "synonyms": [ "biannual", "binannual checkup", "checkup with dentist", "dental checkup", "flossing", "flouride", "teeth cleaned" ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tooth repair",
+          "created": "2018-01-01T06:11:38.993Z",
+          "updated": "2018-01-01T06:11:38.993Z",
+          "metadata": null,
+          "synonyms": [ "bridge", "cap", "cavity", "chipped tooth", "crack", "crown", "filling", "implant", "post", "root canal", "tooth ache", "tooth pain", "tooth removal" ]
+        }
+      ],
+      "created": "2018-01-01T06:11:38.985Z",
+      "updated": "2018-01-01T06:11:38.985Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "Response",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "created": "2018-01-01T06:11:20.288Z",
+          "updated": "2018-01-01T06:11:20.288Z",
+          "metadata": null,
+          "synonyms": [ "I can't", "Nah", "Na", "Nope" ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "created": "2018-01-01T06:11:20.288Z",
+          "updated": "2018-01-01T06:11:20.288Z",
+          "metadata": null,
+          "synonyms": [ "Please", "Sure", "Yeah" ]
+        }
+      ],
+      "created": "2018-01-01T06:11:20.288Z",
+      "updated": "2018-01-01T06:11:20.288Z",
+      "metadata": null,
+      "description": null,
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": [],
+      "created": "2018-01-01T06:11:20.288Z",
+      "updated": "2018-01-01T06:11:20.288Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "ContactInfo",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Email",
+          "created": "2018-01-01T06:11:20.288Z",
+          "updated": "2018-01-01T06:11:20.288Z",
+          "metadata": null,
+          "patterns": [ "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b" ]
+        }
+      ],
+      "created": "2018-01-01T06:11:20.288Z",
+      "updated": "2018-01-01T06:11:20.288Z",
+      "metadata": null,
+      "description": null,
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Labs",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Dr. Ramesh Labs",
+          "created": "2018-01-01T06:11:20.288Z",
+          "updated": "2018-01-01T06:11:20.288Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dr. Path Labs",
+          "created": "2018-01-01T06:11:20.288Z",
+          "updated": "2018-01-01T06:11:20.288Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dr. Lal Labs",
+          "created": "2018-01-01T06:11:20.288Z",
+          "updated": "2018-01-01T06:11:20.288Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dr. Pathlal Labs",
+          "created": "2018-01-01T06:11:20.288Z",
+          "updated": "2018-01-01T06:11:20.288Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dr. Suresh Labs",
+          "created": "2018-01-01T06:11:20.288Z",
+          "updated": "2018-01-01T06:11:20.288Z",
+          "metadata": null,
+          "synonyms": []
+        }
+      ],
+      "created": "2018-01-01T06:11:20.288Z",
+      "updated": "2018-01-01T06:11:20.288Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "types",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dental",
+          "created": "2018-01-01T06:11:20.288Z",
+          "updated": "2018-01-01T06:11:20.288Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vision",
+          "created": "2018-01-01T06:11:20.288Z",
+          "updated": "2018-01-01T06:11:20.288Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mental",
+          "created": "2018-01-01T06:11:20.288Z",
+          "updated": "2018-01-01T06:11:20.288Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "physical",
+          "created": "2018-01-01T06:11:20.288Z",
+          "updated": "2018-01-01T06:11:20.288Z",
+          "metadata": null,
+          "synonyms": []
+        }
+      ],
+      "created": "2018-01-01T06:11:20.288Z",
+      "updated": "2018-01-01T06:11:20.288Z",
+      "metadata": null,
+      "description": null
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2017-05-26"
+    }
+  },
+  "description": "This app is used to book a lab test on particular date and time, provide test details including procedure and cost and send mail",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": { "text": [ "The cost for $selected_type is 250 and procedure is as follows:", "1. Open your legs.", "2. Ha ha" ] },
+      "parent": "node_1_1514785882477",
+      "context": null,
+      "created": "2018-01-01T08:00:01.929Z",
+      "updated": "2018-01-01T08:01:11.246Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "$selected_type == \"physical\"",
+      "description": null,
+      "dialog_node": "node_4_1514793601531",
+      "previous_sibling": "node_3_1514793599944"
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": { "text": [ "The cost for $selected_type is 250 and procedure is as follows:", "1. Open your brain.", "2. Ha ha" ] },
+      "parent": "node_1_1514785882477",
+      "context": null,
+      "created": "2018-01-01T07:50:34.511Z",
+      "updated": "2018-01-01T07:59:24.235Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "$selected_type == \"mental\"",
+      "description": null,
+      "dialog_node": "node_2_1514793034146",
+      "previous_sibling": "node_1_1514792983015"
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": { "text": [ "The cost for $selected_type is 250 and procedure is as follows:", "1. Open your eyes.", "2. Ha ha" ] },
+      "parent": "node_1_1514785882477",
+      "context": null,
+      "created": "2018-01-01T08:00:00.292Z",
+      "updated": "2018-01-01T08:01:00.095Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "$selected_type == \"vision\"",
+      "description": null,
+      "dialog_node": "node_3_1514793599944",
+      "previous_sibling": "node_2_1514793034146"
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": { "text": [ "The cost for $selected_type is 250 and procedure is as follows:", "1. Open your teeth.", "2. Ha ha", "Do you want to book a lab test for @selected_type?" ] },
+      "parent": "node_1_1514785882477",
+      "context": { "selected_type": "@types" },
+      "created": "2018-01-01T07:49:43.445Z",
+      "updated": "2018-01-01T08:14:52.793Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "$selected_type == \"dental\"",
+      "description": null,
+      "dialog_node": "node_1_1514792983015",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "TestDate",
+      "output": {
+        "text": {
+          "values": [ "Sure $username, but please let us know thw time as well." ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1514781802983",
+      "context": {
+        "chosen_date": "<?@sys-date?>",
+        "formatted_chosendate": "<?@sys-date.reformatDateTime('MMMMM dd')?>"
+      },
+      "created": "2018-01-01T04:45:40.805Z",
+      "updated": "2018-01-01T16:12:17.194Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@sys-date",
+      "description": null,
+      "dialog_node": "node_2_1514781940369",
+      "previous_sibling": "node_5_1514793839709"
+    },
+    {
+      "type": "standard",
+      "title": "TestTime",
+      "output": {
+        "text": {
+          "values": [ "Sure $username, but please let us know the date as well" ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1514781802983",
+      "context": {
+        "chosen_time": "<?@sys-time?>",
+        "formatted_chosentime": "<?@sys-time.reformatDateTime('h:mm aaa').replaceAll(':00', '')?>"
+      },
+      "created": "2018-01-01T08:04:00.088Z",
+      "updated": "2018-01-01T16:11:34.296Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_5_1514793839709",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "ResponseNo",
+      "output": {
+        "text": {
+          "values": [ "Sorry! We cannot procced further without your details." ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1514477871971",
+      "context": null,
+      "created": "2017-12-30T06:14:03.924Z",
+      "updated": "2018-01-01T08:20:05.619Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Response:No",
+      "description": null,
+      "dialog_node": "node_5_1514614443564",
+      "previous_sibling": "node_6_1514614486228"
+    },
+    {
+      "type": "standard",
+      "title": "ResponseYes",
+      "output": {
+        "text": {
+          "values": [ "Please, let us know your name." ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1514477871971",
+      "context": null,
+      "created": "2017-12-30T06:14:46.589Z",
+      "updated": "2018-01-01T08:20:14.920Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Response:Yes || input.text.contains('Yes')",
+      "description": null,
+      "dialog_node": "node_6_1514614486228",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "NameDetail",
+      "output": {
+        "text": {
+          "values": [ "Hi $username, Please tell us your email address." ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1514614486228",
+      "context": { "username": "@sys-person.literal" },
+      "created": "2017-12-31T03:09:58.960Z",
+      "updated": "2018-01-01T05:24:54.911Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@sys-person",
+      "description": null,
+      "dialog_node": "node_9_1514689798516",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "EmailDetail",
+      "output": { "text": [ "Thanks, for your details.", "These are the available list of labs. Please choose one of them.", "Dr. Lal Labs", "Dr. Path Labs", "Dr. Pathlal Labs", "Dr. Ramesh Labs", "Dr. Suresh Labs" ] },
+      "parent": "node_9_1514689798516",
+      "context": { "useremail": "@ContactInfo.literal" },
+      "created": "2017-12-31T03:36:43.961Z",
+      "updated": "2018-01-01T05:31:00.883Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@ContactInfo",
+      "description": null,
+      "dialog_node": "node_1_1514691403576",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "General Info",
+      "output": { "text": [ "Okay, let me do the boring reading for you. What service did you need to know more about?", "We have dental, vision, mental and physical tests." ] },
+      "parent": null,
+      "context": null,
+      "created": "2018-01-01T05:54:03.574Z",
+      "updated": "2018-01-01T07:44:31.296Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "#get_info",
+      "description": null,
+      "dialog_node": "node_2_1514786042081",
+      "previous_sibling": "node_1_1514785882477"
+    },
+    {
+      "type": "standard",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [ "Sure $username, we are booking an appointment for you at $chosen_lab on $formatted_chosendate at $formatted_chosentime and sending you a confirmation email on $useremail." ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2018-01-01T08:06:21.675Z",
+      "updated": "2018-01-01T16:13:22.471Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "$formatted_chosendate && $formatted_chosentime && $username && $useremail && $chosen_lab",
+      "description": null,
+      "dialog_node": "node_8_1514793981322",
+      "previous_sibling": "node_2_1514786042081"
+    },
+    {
+      "type": "standard",
+      "title": "Test Details",
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2018-01-01T05:51:22.922Z",
+      "updated": "2018-01-01T08:17:50.655Z",
+      "metadata": { "_customization": { "mcr": true } },
+      "next_step": null,
+      "conditions": "#test_procedure || @types",
+      "digress_in": "does_not_return",
+      "description": null,
+      "dialog_node": "node_1_1514785882477",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1514781802983"
+    },
+    {
+      "type": "standard",
+      "title": "Lab test booking",
+      "output": {
+        "text": {
+          "values": [ "Sure, we can do that for you. But first, can we have some details of your's ?" ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-12-28T16:17:54.127Z",
+      "updated": "2018-01-01T04:13:32.049Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "#BookLabTest",
+      "description": null,
+      "dialog_node": "node_1_1514477871971",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "LabSelect",
+      "output": {
+        "text": {
+          "values": [ "Please let us know the date and time when you want to fix an appointment with @chosen_lab" ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": { "chosen_lab": "@sys-person" },
+      "created": "2018-01-01T04:43:23.438Z",
+      "updated": "2018-01-01T08:12:23.899Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@Labs",
+      "description": null,
+      "dialog_node": "node_1_1514781802983",
+      "previous_sibling": "node_1_1514477871971"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "text": {
+          "values": [ "I didn't understand. You can try rephrasing.", "Can you reword your statement? I'm not understanding.", "I didn't get your meaning." ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-12-28T16:16:36.948Z",
+      "updated": "2017-12-28T16:16:36.948Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1514793981322"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "text": {
+          "values": [ "Hello. How can I help you?" ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-12-28T16:16:36.948Z",
+      "updated": "2018-01-01T04:12:09.354Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "welcome",
+      "description": null,
+      "dialog_node": "Welcome",
+      "previous_sibling": null
+    }
+  ],
+  "workspace_id": "b5018bcd-ae04-4281-90a9-2746d8866f4e",
+  "counterexamples": [],
+  "learning_opt_out": false
+}
